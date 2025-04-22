@@ -1,24 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad6c7276-5e42-4633-85ba-383057a1d17e" name="Changes" comment="" />
+    <list default="true" id="ad6c7276-5e42-4633-85ba-383057a1d17e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TLLm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TLLm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llama_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llama_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/models/Nidum-Llama-3.2-3B-Uncensored/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/models/Nidum-Llama-3.2-3B-Uncensored/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/models/Nidum-Llama-3.2-3B-Uncensored/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/models/Nidum-Llama-3.2-3B-Uncensored/generation_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/models/Nidum-Llama-3.2-3B-Uncensored/model-00001-of-00003.safetensors" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/models/Nidum-Llama-3.2-3B-Uncensored/model-00002-of-00003.safetensors" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/models/Nidum-Llama-3.2-3B-Uncensored/model-00003-of-00003.safetensors" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/models/Nidum-Llama-3.2-3B-Uncensored/model.safetensors.index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/models/Nidum-Llama-3.2-3B-Uncensored/special_tokens_map.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/models/Nidum-Llama-3.2-3B-Uncensored/tokenizer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/models/Nidum-Llama-3.2-3B-Uncensored/tokenizer_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/prompt_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/llm/prompt_builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory/embeddings.py" beforeDir="false" afterPath="$PROJECT_DIR$/memory/embeddings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory/long_term.py" beforeDir="false" afterPath="$PROJECT_DIR$/memory/long_term.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory/short_term.py" beforeDir="false" afterPath="$PROJECT_DIR$/memory/short_term.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory/vector_store.py" beforeDir="false" afterPath="$PROJECT_DIR$/memory/vector_store.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/chat_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/chat_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/chat_state.py" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/chat_state.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structure.md" beforeDir="false" afterPath="$PROJECT_DIR$/structure.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegram_handlers/command_handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/telegram_handlers/command_handlers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegram_handlers/message_handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/telegram_handlers/message_handlers.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
 }]]></component>
   <component name="ProjectId" id="2w5xQuhGZnpComMokSDByX1OQnk" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python.llama_loader.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -39,11 +87,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1745345224288</updated>
-      <workItem from="1745345224700" duration="13000" />
+      <workItem from="1745345224700" duration="6998000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TLLm$llama_loader.coverage" NAME="llama_loader Coverage Results" MODIFIED="1745346795964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/llm" />
   </component>
 </project>

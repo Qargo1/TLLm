@@ -1,0 +1,25 @@
+# requirements.txt
+python-dotenv>=1.0.0
+# Основная библиотека для LLM от Hugging Face
+transformers>=4.40.0
+# PyTorch - установите версию под вашу систему (CPU/CUDA)
+# Сначала попробуйте так, pip может подобрать нужную:
+torch>=2.1.0
+# Если ошибка с torch, установите вручную с сайта PyTorch: https://pytorch.org/get-started/locally/
+# Пример для CUDA 12.1: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+# Пример для CPU: pip install torch torchvision torchaudio
+
+# Для асинхронного Telegram бота
+python-telegram-bot[ext]>=20.5
+
+# Для векторной памяти (эмбеддинги)
+sentence-transformers>=2.2.2
+# Для векторной базы данных (проще для старта)
+chromadb>=0.4.15
+
+# Опционально, но полезно:
+accelerate>=0.29.0 # Помогает с загрузкой больших моделей и распределением на GPU
+bitsandbytes>=0.41.3 # Для 8-битной/4-битной квантизации на GPU (может быть сложно с установкой на Windows)
+
+# Если решите использовать GGUF модели для лучшей производительности CPU/GPU:
+# llama-cpp-python>=0.2.0 # Установка может требовать C++ компилятора
